@@ -287,7 +287,7 @@ async def mcp_transport_client(
     Args:
         url: MCP server endpoint URL.
         transport: ``"sse"`` (legacy HTTP+SSE) or ``"streamable_http"``
-            (MCP 2026-03-26 Streamable HTTP, also accepts ``"streamableHttp"``).
+            (MCP 2025-03-26 Streamable HTTP, also accepts ``"streamableHttp"``).
         headers: Optional HTTP headers (auth tokens, etc.).
         verify: TLS verify flag/context. Forwarded to :func:`sse_client`;
             ignored for streamable_http (see note in :func:`streamable_http_client`).
